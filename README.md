@@ -1,0 +1,1 @@
+Simulation to compare how much time a group of Roomba-like robots will take to clean the floor of a room using two different strategies. Launch vizualize.py to see in action. This code was used in edx course '6.00x: Introduction to Computer Science and Programming'.
