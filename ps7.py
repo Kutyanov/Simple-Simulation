@@ -278,7 +278,6 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
 	            
     return (medianValue/num_trials)
     
-#runSimulation(1, 1.5, 4, 4, 0.5, 1, StandardRobot)
 
 
 # === Problem 4
@@ -302,8 +301,6 @@ class RandomWalkRobot(Robot):
             self.setRobotDirection(self.newdir)
         else:
 	        self.setRobotDirection(self.newdir)
-        #raise NotImplementedError
-#testRobotMovement(RandomWalkRobot, RectangularRoom)
 
 # === Problem 5
 
@@ -325,9 +322,7 @@ def showPlot1(title, x_label, y_label):
     pylab.xlabel(x_label)
     pylab.ylabel(y_label)
     pylab.show()
-"""
-
-"""    
+    
 def showPlot2(title, x_label, y_label):
     aspect_ratios = []
     times1 = []
